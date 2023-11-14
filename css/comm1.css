@@ -1,0 +1,59 @@
+.comments__kma > div{
+    transition: all 0.3s ease;
+}
+.comment-add{
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+.comment-write{
+    transition: all 0.3s ease;
+    max-height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.comment-write img{
+    margin-right: 20px;
+}
+.comments__kma{
+    overflow: hidden
+}
+.loading {
+    font-style: italic;
+}
+.loading img{
+    display: inline;
+    width: 60px!important;
+}
+
+.loading:after {
+    content: '.';
+    animation: loading 1s ease alternate infinite;
+}
+@keyframes loading {
+    60% {
+        text-shadow: 0.35em 0 0 currentColor;
+    }
+
+    100% {
+        text-shadow: 0.35em 0 0 currentColor, 0.75em 0 0 currentColor;
+    }
+}
+@keyframes race {
+    0% {
+        transform: skew(0, -3deg);
+    }
+    25% {
+        transform: skew(0, 3deg);
+    }
+    50% {
+        transform: skew(0, -3deg);
+    }
+    75% {
+        transform: skew(0, 3deg);
+    }
+    100%{
+        transform: skew(0, );
+    }
+}
